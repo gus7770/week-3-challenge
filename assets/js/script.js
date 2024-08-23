@@ -45,7 +45,7 @@ const displayAverageSalary = function (employeesArray) {
   //after you get the avg using a for loop, then do console.log
 
 
-    let totalSalary = 0;
+  let totalSalary = 0;
   for (let i = 0; i < employeesArray.length; i++) {
     totalSalary = + parseFloat(employeesArray[i].salary);
   }
